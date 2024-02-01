@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "turbo vite.build",
-    "dev": "turbo vite.dev",
+    "turbo.build": "turbo vite.build",
+    "turbo.dev": "turbo vite.dev",
     "lint": "tsc",
     "prepare": "is-ci || husky install",
-    "preview": "turbo vite.preview",
-    "vite.build": "vite build",
-    "vite.dev": "vite --host",
-    "vite.preview": "vite preview"
+    "turbo.preview": "turbo vite.preview",
+    "build": "vite build",
+    "dev": "vite --host",
+    "preview": "vite preview"
   },
   "lint-staged": {
     "*.{ts,tsx,js,cjs}": [
